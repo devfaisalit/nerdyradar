@@ -1,0 +1,148 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container-fluid {
+    background-color: rgb(36, 36, 36);
+}
+
+.container-fluid>.container>.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.container-fluid>.container>.row>li {
+    color: white;
+    list-style-type: none;
+    font-weight: 1000;
+    font-size: large;
+    cursor: pointer;
+}
+
+.container-fluid>.container>.row>li:hover {
+    color: rgb(192, 193, 195);
+}
+
+.container-fluid>.container>.row>li>h5 {
+    filter: none;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+}
+
+.container-fluid>.container>.row>li>h5:hover {
+    filter: grayscale();
+}
+
+.container-fluid>.container>.row>h1 {
+    color: #00a2ff;
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+
+.btnp:hover,
+.btnp:focus {
+    transform: translateY(0.5rem);
+}
+
+.container-fluid>.container>.row>.btnp {
+    display: inline-block;
+    font-weight: 800;
+    color: white;
+    font-size: 1.75rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: var(--pink) !important;
+    padding: 1.1rem 2.2rem;
+}
+
+.btnb:hover,
+.btnb:focus {
+    transform: translateY(0.5rem);
+}
+
+.container-fluid>.container>.row>.btnb {
+    display: inline-block;
+    font-weight: 800;
+    color: white;
+    font-size: 1.75rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 1.1rem 2.2rem;
+    background-color: #00a2ff;
+    margin-left: .5%;
+}
+
+.container {
+    border: 2px solid transparent;
+}
+
+.container>h1 {
+    margin: 8% 0 1% 14%;
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.container>.row>.col {
+    display: inline-block;
+    transition: .3s;
+
+    max-width: 377px;
+    margin: 2% 0;
+    cursor: pointer;
+    filter: none;
+    transition: .3s;
+}
+
+.container>.row>.col:hover,
+.container>.row>.col:focus {
+    transform: translateY(0.5rem);
+    filter: grayscale();
+}
+
+.container>.row>.col>h5 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 1000 !important;
+}
+
+.container-fluid>.footer>.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid>.footer>.row>a {
+    color: white;
+    font-weight: 650;
+    font-size: 0.9rem !important;
+    margin-right: .3%;
+    margin-top: 3.5%;
+    cursor: pointer;
+}
+
+.container-fluid>.footer>.row>a:hover {
+    color: rgb(210, 210, 210);
+}
+
+.container-fluid>.footer>.row>b {
+    margin-right: .4%;
+    border-top: .5px solid white;
+    margin-top: -.5%;
+}
+
+.container-fluid>.footer>.row>img {
+    margin-top: -0%;
+}
+
+.container-fluid>.footer>.row>p {
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 3.5%;
+}
